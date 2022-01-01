@@ -22,8 +22,8 @@ include $(EXT)/ext.mk
 BASEURL ?=
 serve : BASEURL :=
 
-PUBLISH_CNAME := play.yaml.io
-REMOTE_NAME ?= origin
+PUBLISH_CNAME := iplay.yaml.io
+REMOTE_NAME ?= fork
 
 DOCKER_SHELL_CMD ?= bash
 

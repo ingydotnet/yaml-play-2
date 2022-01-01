@@ -271,10 +271,10 @@ class window.Playground extends EatMe
   localhost_server: (text, parser, cb)->
     if window.location.href.match(/^https/)
       scheme = 'https'
-      port = 31337
+      port = 31331
     else
       scheme = 'http'
-      port = 1337
+      port = 1331
 
     version = @conf.opts.sandbox
     args = "version=#{version}&parser=#{parser}"
